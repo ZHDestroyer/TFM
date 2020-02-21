@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d46d11e064f4428eb95f717a860977d6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+                     <h3 align="center" style="font-size:20px"><b>Cantidad total articulo 740728250: 10 (Año: 2014)</b></h3>
+                     
+    
+            <div class="folium-map" id="map_d46d11e064f4428eb95f717a860977d6" ></div>
+        
+</body>
+<script>    
+    
+            var map_d46d11e064f4428eb95f717a860977d6 = L.map(
+                "map_d46d11e064f4428eb95f717a860977d6",
+                {
+                    center: [37.76574, -3.789518],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7.2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0036150cdfdb4fda96872f187507ba6b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d46d11e064f4428eb95f717a860977d6);
+        
+    
+            var circle_f1c5326f0fdf419a916f869d0574a8d8 = L.circle(
+                [37.76574, -3.789518],
+                {"bubblingMouseEvents": true, "color": ["#4169e1"], "dashArray": null, "dashOffset": null, "fill": true, "fillColor": ["#4169e1"], "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 60000.0, "stroke": true, "weight": 3}
+            ).addTo(map_d46d11e064f4428eb95f717a860977d6);
+        
+    
+        var popup_02450fa016184e94b208f02a7351a882 = L.popup({"maxWidth": 2650});
+
+        
+            var html_e69c7519e3a546f0a5f3e85ea34bc702 = $(`<div id="html_e69c7519e3a546f0a5f3e85ea34bc702" style="width: 100.0%; height: 100.0%;"><b><u>Jaén</u>: (219 centros)</b><br> Cantidad Salida total: 10<br> Cantidad Salida por Centro: 0.05</div>`)[0];
+            popup_02450fa016184e94b208f02a7351a882.setContent(html_e69c7519e3a546f0a5f3e85ea34bc702);
+        
+
+        circle_f1c5326f0fdf419a916f869d0574a8d8.bindPopup(popup_02450fa016184e94b208f02a7351a882)
+        ;
+
+        
+    
+</script>
